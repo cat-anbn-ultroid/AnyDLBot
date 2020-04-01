@@ -84,7 +84,7 @@ async def get_link(bot, update):
         )
         try:
             logger.info(command_to_exec)
-            t_response = subprocess.check_output(command_to_exec, stderr=subprocess.STDOUT)
+            t_response = subprocess.check_output(command_to_exec, stderr=subprocess.STDOUT,timeout=40)
         except subprocess.CalledProcessError as exc:
             logger.info("Status : FAIL", exc.returncode, exc.output)
             await bot.edit_message_text(
