@@ -9,7 +9,7 @@ This is a Telegram URL Upload Bot!
 My channel : @NjanAdarsh"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
+    UPGRADE_TEXT = "<b>👉 Contact @adarsht123 </b>  /help for Details"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
@@ -21,7 +21,7 @@ URL | filename | username | password"""
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @NjanAdarsh"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @NjanAdarsh \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact @adarsht123"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -35,22 +35,18 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free User
 Expires on: 31/12/2020"""
-    HELP_USER = """Hai am URL Uploader bot..
+    HELP_USER = """Hai I am URL Uploader bot..
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   File  - Give File without Screenshots
+1. Send a valid direct URL,I will upload it to telegram and click on appropriate button
+2. Send photo to be used as thumbnail or /deletethumbnail if you do not want auto generated thumbnail
+3. Get downloadable link of tg file using /getlink command
 4. Send Telegram sticker to get as Telegram downloadable media
 5. Use /converttoaudio to convert telegram documents into telegram audio
-6. can cut large Telegram medias into smaller videos or photos using /trim HH:MM:SS to HH:MM:SS
-7. Get screenshot of specific time of a video using /trim HH:MM:SS to any video
-8. Rename Telegram files using /rename file.name format
-  
-
+6. Use /converttovideo in reply to a tg file to get as a streamable video
+7. can cut large Telegram medias into smaller videos or photos using /trim HH:MM:SS HH:MM:SS
+8. Get screenshot of specific time of a video using /trim HH:MM:SS to any video
+9. Rename Telegram files using /rename file.name format
+10.Send /storageinfo to know the media, that is currently downloaded
 --------
 Send /me to know current plan details
 
@@ -59,7 +55,7 @@ My channel : @NjanAdarsh"""
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyDLBot"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n @NjanAdarsh"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
