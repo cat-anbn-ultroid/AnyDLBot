@@ -12,7 +12,7 @@ class Config(object):
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
     # Banned Unwanted Members..
-    BANNED_USERS = ["1062346324 983706293"]
+    BANNED_USERS = ["1062346324","983706293"]
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
