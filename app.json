@@ -44,7 +44,7 @@
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
-      "value": "",
+      "value": "1062346324",
       "required": false
     },
     "DEF_THUMB_NAIL_VID_S": {
